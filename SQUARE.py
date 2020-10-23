@@ -1,8 +1,8 @@
 while(True):
     try:
-        var1 = int(input ("ENTER A NUMBER TO FIND ITS SQUARE\n"))
-        print("THE SQUARE OF", var1,"IS", int(var1 * var1))
+        var = int(input ("ENTER A NUMBER TO FIND ITS SQUARE\n"))
+        print(f"THE SQUARE OF {var} IS {var**2}")
     except ValueError:
-        print("ENTER AN INTEGER ONLY")
+        print("ENTER AN INTEGER ONLY\n")
         continue
     break
